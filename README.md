@@ -1,52 +1,48 @@
-# Intership
-
 Course Scheduling Project
 Overview
-Frontend design first 
-<img width="2880" height="1920" alt="Frontend design" src="https://github.com/user-attachments/assets/14ef660b-0985-487f-ac88-317e08ce0cd7" />
 
-Frontend design second 
+The Course Scheduling Project is a web application designed to help students at Qassim University efficiently organize and schedule the courses they want to register for each semester. The system allows students to prioritize and arrange their desired courses based on their preferences, academic requirements, and available course slots. By providing a simple, user-friendly interface, this project helps students create an optimal course schedule for each semester.
 
-<img width="968" height="419" alt="Frontend design 2" src="https://github.com/user-attachments/assets/86fd2139-9a79-493b-b1bf-803a3a7af2fd" />
-
-
-The Course Scheduling and Ranking System is a web application designed to simplify the course registration process for students at Qassim University. The system uses an intelligent algorithm to rank courses based on students' preferences, academic progress, and other relevant criteria, helping them make informed decisions about their course selection.
-
-Developed during an internship at Deanship of Information Technology – Qassim University (QUIT), this project aims to enhance students' academic experience through a more efficient, data-driven registration system.
+Developed during an internship at Deanship of Information Technology – Qassim University (QUIT), this project aims to enhance students' academic experience by simplifying the course registration process and providing a better organizational tool for managing course schedules.
 
 Project Goals
 
 Streamline the process of course registration for students.
 
-Provide personalized course ranking and recommendations using data-driven insights.
+Allow students to prioritize and arrange their desired courses based on available slots and personal preferences.
 
-Create an interactive, user-friendly dashboard to help students track their academic progress and course selections.
+Provide an easy-to-use, interactive dashboard for students to visualize and manage their course schedule.
 
-Implement a robust backend system to handle student data and course information efficiently.
+Implement a backend system to efficiently manage course data and registration details.
+
+Frontend Design
+
+Below are images showcasing the frontend design of the project:
+
+Frontend design 1
+
+<img width="2880" height="1920" alt="Frontend design" src="https://github.com/user-attachments/assets/8ea5d2d3-6c00-4dab-a39f-61fbdf2947cd" />
+
+
+Frontend design 2
+
+<img width="968" height="419" alt="Frontend design 2" src="https://github.com/user-attachments/assets/2194ca0c-e7e4-4e62-a56a-2c57a65c989c" />
 
 Team Members
 
 This project was developed as part of a team of 5 students during our internship at Deanship of Information Technology – Qassim University (QUIT).
 
-Yasir Obaid AlObaid (Role)
-
-[Team Member 2 Name] (Role)
-
-[Team Member 3 Name] (Role)
-
-[Team Member 4 Name] (Role)
-
-[Team Member 5 Name] (Role)
-
 Key Features
 
-Course Ranking & Recommendation: Courses are ranked using an AI-based algorithm that takes into account student preferences and performance.
+Course Scheduling: Students can create their optimal course schedule based on personal preferences and available course slots.
 
-Full-Stack Web Application: Built with Laravel for backend and MySQL for database management. The frontend is developed using HTML, CSS, and JavaScript.
+Full-Stack Web Application: Built with Laravel for backend development and MySQL for database management. The frontend is developed using HTML, CSS, and JavaScript.
 
-Interactive Dashboards: Students can view their academic performance and course preferences through visual, easy-to-understand dashboards powered by Chart.js.
+Interactive Dashboard: An easy-to-use dashboard where students can view and manage their course schedule.
 
-PDF Career Profile Generation: Students can generate customized PDF reports summarizing their academic journey, including course rankings and performance insights.
+User-Friendly Interface: The system provides an intuitive interface for students to select, prioritize, and organize their courses.
+
+Backend System: Manages course data, student registrations, and course availability.
 
 Technologies Used
 
@@ -56,11 +52,7 @@ Frontend: HTML, CSS, JavaScript
 
 Database: MySQL
 
-API: OpenAI API (used for AI-based course recommendations)
-
 Version Control: Git, GitHub (Git Flow methodology)
-
-Data Visualization: Chart.js, DomPDF
 
 Project Setup
 
@@ -100,4 +92,4 @@ Serve the application:
 
 php artisan serve
 
-Contribut
+Contributing
