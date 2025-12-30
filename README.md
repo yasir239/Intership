@@ -58,38 +58,26 @@ Project Setup
 
 To set up and run the project locally, follow these steps:
 
-Clone the repository:
-
+1. Clone the repository
 git clone https://github.com/yasir239/Intership.git
 
-
-Navigate to the project directory:
-
+2. Navigate to the project directory
 cd Intership
 
-
-Install the required dependencies:
-
+3. Install the required dependencies
 composer install
 
+4. Set up the environment variables
 
-Set up the environment variables by copying .env.example to .env:
+Copy .env.example to .env:
 
 cp .env.example .env
 
-
-Generate the application key:
-
+5. Generate the application key
 php artisan key:generate
 
-
-Run database migrations:
-
+6. Run database migrations
 php artisan migrate
 
-
-Serve the application:
-
+7. Serve the application
 php artisan serve
-
-Contributing
